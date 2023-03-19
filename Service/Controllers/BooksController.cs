@@ -31,5 +31,17 @@ namespace Service.Controllers
         {
             return Ok(_logic.GetBookById(id));
         }
+
+        [HttpPut("update/books")]
+        public IActionResult UpdateBooks([FromBody] Books book) { 
+        
+            return Ok(_logic.updateBooks(book));
+        }
+
+        [HttpDelete("delete/book/{id}")]
+        public IActionResult  DeleteBook(int id)
+        {
+            return Ok(_logic.DeleteBookById(id));
+        }
     }
 }

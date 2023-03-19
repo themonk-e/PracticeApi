@@ -30,11 +30,12 @@ namespace BooksBL
 
         }
 
-        public void DeleteBookById(int id)
+        public Books DeleteBookById(int id)
         {
             var book = context.Books.FirstOrDefault(x=>x.BookId== id);
             context.Books.Remove(book);
             context.SaveChanges();
+            return book;
         }
 
     }
