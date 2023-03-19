@@ -25,5 +25,11 @@ namespace Service.Controllers
             return Ok(_logic.AddBooks(book));
         }
 
+        [HttpGet("getby/{id}")]
+
+        public IActionResult GetBook(int id)
+        {
+            return Ok(_logic.GetBookById(id));
+        }
     }
 }
