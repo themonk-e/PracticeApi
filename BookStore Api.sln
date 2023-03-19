@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore Api", "BookStore Api\BookStore Api.csproj", "{8564754A-87E4-40C3-AF26-D09A7F6CF520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksBL", "BooksBL\BooksBL.csproj", "{49655B62-5BB7-4B38-A7E8-5C68EB70E2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{ADA46EB0-C6B3-433F-AE72-1398C1654447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8564754A-87E4-40C3-AF26-D09A7F6CF520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8564754A-87E4-40C3-AF26-D09A7F6CF520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8564754A-87E4-40C3-AF26-D09A7F6CF520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8564754A-87E4-40C3-AF26-D09A7F6CF520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49655B62-5BB7-4B38-A7E8-5C68EB70E2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49655B62-5BB7-4B38-A7E8-5C68EB70E2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49655B62-5BB7-4B38-A7E8-5C68EB70E2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49655B62-5BB7-4B38-A7E8-5C68EB70E2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA46EB0-C6B3-433F-AE72-1398C1654447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA46EB0-C6B3-433F-AE72-1398C1654447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA46EB0-C6B3-433F-AE72-1398C1654447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA46EB0-C6B3-433F-AE72-1398C1654447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0578D38-07A1-4471-A46D-BB010B4143B7}
+	EndGlobalSection
+EndGlobal
